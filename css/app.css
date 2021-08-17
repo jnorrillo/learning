@@ -1,0 +1,109 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1{
+    font-weight: bold;
+}
+
+p{
+    font-weight: 600;
+    color: rgb(160, 158, 158);
+}
+
+h2,
+p{
+    margin: 1rem auto;
+}
+
+p:last-child{
+    margin: 0 0 1rem 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    margin: 5rem;
+}
+
+main{
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: 0px 5px 20px #000;
+}
+
+@media (min-width: 470px ) {
+    main{
+         max-width: 45rem;
+    }
+}
+
+.content{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.plan,
+.nameMusic {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    background-color: #f0f8ff;
+    border-radius: 2rem;
+}
+
+.nameMusic{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link,
+.iconMusic {
+    margin: auto 0;
+}
+
+.textPlan{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.butons{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: rgba(0, 0, 255, 0.809);
+    text-align: center;
+    border-radius: 1rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 2rem;
+    border: none;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    box-shadow: 0rem 1rem 2rem #000;
+}
+
+.order{
+    font-weight: bold;
+    color: cornflowerblue;
+    text-decoration: none;
+}
